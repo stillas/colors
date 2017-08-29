@@ -1,70 +1,26 @@
 {
-  "name": "colors.css",
-  "version": "3.0.0",
-  "main": "js/colors.js",
-  "style": "css/colors.css",
-  "homepage": "http://clrs.cc",
-  "description": "Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
+  "name": "colors.stylus",
+  "version": "1.0.0",
+  "main": "colors.styl",
+  "homepage": "https://github.com/stillas/colors.stylus",
+  "description": "Better default colors for the web.",
   "keywords": [
     "colors",
-    "design",
-    "a11y",
-    "postcss",
-    "palette",
     "css",
-    "oocss"
+    "design",
+    "palette",
+    "stylus"
   ],
-  "devDependencies": {
-    "tachyons-cli": "^0.3.1"
-  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/colors.git"
+    "url": "http://github.com/stillas/colors.stylus.git"
   },
   "bugs": {
-    "url": "http://github.com/mrmrs/colors/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "http://github.com/stillas/colors.stylus/issues"
   },
   "author": {
-    "name": "@mrmrs",
-    "email": "hi@mrmrs.cc",
-    "url": "http://mrmrs.cc"
-  },
-  "contributors": [
-    {
-      "name": "@mrmrs",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "@ilanbiala"
-    },
-    {
-      "name": "@kdrdgn",
-      "url": "http://www.twitter.com/kdrdgn"
-    },
-    {
-      "name": "@tenmilestereo",
-      "url": "http://www.lewiscowper.com"
-    },
-    {
-      "name": "@nschonni",
-      "email": "nschonni@gmail.com",
-      "url": "http://wet-boew.github.io/"
-    },
-    {
-      "name": "SiR-DanieL"
-    },
-    {
-      "name": "@enyo",
-      "email": "m@tias.me",
-      "url": "http://colorglare.com"
-    }
-  ],
-  "engines": {
-    "node": ">=0.10.22"
-  },
-  "scripts": {
-    "start": "tachyons src/colors.css > css/colors.css && tachyons src/colors.css --minify > css/colors.min.css && tachyons src/colors.css --generate-docs --package=../../package.json > readme.md"
+    "name": "marcker",
+    "url": "https://github.com/marcker"
   },
   "license": "MIT"
 }
