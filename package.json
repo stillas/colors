@@ -1,6 +1,6 @@
 {
   "name": "colors.stylus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "colors.styl",
   "homepage": "https://github.com/stillas/colors.stylus",
   "description": "Better default colors for the web.",
